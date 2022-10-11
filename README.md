@@ -32,6 +32,7 @@ Usage:
 5. load_module(): The load_module function is useful when you want to create an object using other modules and store it in the binary file. This function will load the specified module as a part of the pyobj2bin module instead of importing it in the main program and it evaluates the object automatically while storing it in the binary file 
 
 Usage: 
+      
       eg: 
          pyobj2bin.load_module("datetime") 
          [[1, 2, 3], [1, 2, 3]] 
